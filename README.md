@@ -1,135 +1,73 @@
-<div align="center">
+# 🏛️ JANA SETU
+**Civic Issue Resolution Platform**  
+Node.js React Flutter MongoDB Socket.io Express.js Vite Aptos Python
 
-# 🌟 JANA SETU
-### *Civic Issue Resolution Platform*
+A comprehensive civic engagement platform with AI-powered issue reporting, real-time analytics, blockchain transparency, and government-citizen collaboration.
 
-**🏆 Built by Team VisionX**
+## 📋 Table of Contents
+- [🎯 Overview](#-overview)
+- [✨ Key Features](#-key-features)
+- [🏗️ System Architecture](#️-system-architecture)
+- [🔄 Workflow Diagrams](#-workflow-diagrams)
+- [🚀 Quick Start](#-quick-start)
+- [📁 Project Structure](#-project-structure)
+- [🛠️ Technology Stack](#️-technology-stack)
+- [👥 User Roles & Features](#-user-roles--features)
+- [🔧 API Endpoints](#-api-endpoints)
+- [📊 Database Models](#-database-models)
+- [🎨 Frontend Architecture](#-frontend-architecture)
+- [📱 Real-time Features](#-real-time-features)
+- [🔐 Security & Authentication](#-security--authentication)
+- [🚀 Deployment Guide](#-deployment-guide)
 
-[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org)
-[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
-[![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com)
-[![Aptos](https://img.shields.io/badge/Aptos-000000?style=for-the-badge&logo=aptos&logoColor=white)](https://aptoslabs.com)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+## 🎯 Overview
+**JANA SETU** (*"Bridge to People"* in Sanskrit) is a modern, full-stack civic engagement platform that revolutionizes how citizens report issues and interact with local governments. The platform combines AI-powered classification, real-time tracking, blockchain transparency, and comprehensive analytics to create an efficient civic ecosystem.
 
-![JANA SETU Banner](https://via.placeholder.com/1200x400/1a1a1a/ffffff?text=JANA+SETU+Civic+Platform)
+### 🌟 Core Objectives
+- 📱 **Smart Reporting**: AI-powered issue classification and routing
+- 🎥 **Real-time Collaboration**: Live updates and community engagement
+- 🗺️ **Geographic Intelligence**: Location-based analytics and mapping
+- ⭐ **Transparency**: Blockchain-verified accountability system
+- 🛡️ **Quality Assurance**: ML-driven content moderation and validation
 
-**🚀 Empowering Citizens, Transforming Communities through AI-Powered Civic Engagement**
+## ✨ Key Features
 
-*JANA SETU bridges the gap between citizens and local governments through intelligent issue reporting, real-time analytics, and blockchain transparency.*
+### 👨‍💼 Citizen Features
+- 🔐 **Secure Authentication** with JWT tokens and Firebase integration
+- 📱 **Smart Issue Reporting** with photo, voice, and GPS capture
+- 🤖 **AI Classification** with 85%+ accuracy in department routing
+- 📍 **Precision Location** tracking with address resolution
+- 🔔 **Real-time Updates** via push notifications and Socket.io
+- 👥 **Community Engagement** with upvoting and social features
+- 📊 **Personal Dashboard** with report history and impact tracking
+- 🗺️ **Interactive Maps** showing nearby issues and resolutions
+- ⭐ **Feedback System** for rating government response quality
 
-[🎯 Live Demo](#-demo) • [📱 Features](#-key-features) • [🛠️ Tech Stack](#%EF%B8%8F-technology-stack) • [🚀 Quick Start](#-quick-start) • [👥 Team](#-team-visionx)
+### 👨‍💼 Government Admin Features
+- 📋 **Comprehensive Dashboard** with real-time analytics
+- 🗺️ **Geographic Visualization** with heat maps and clustering
+- ⚡ **Bulk Operations** for efficient issue management
+- 📈 **Performance Analytics** with KPIs and success metrics
+- 🎯 **Smart Routing** with ML-powered department assignment
+- 📊 **Trend Analysis** for proactive governance planning
+- 🏆 **Citizen Rankings** and engagement leaderboards
+- 📝 **Report Management** with status tracking and updates
+- 🔍 **Advanced Filtering** by location, category, and priority
 
----
+### 🤖 AI/ML Features
+- 🧠 **Intelligent Classification** for department and severity detection
+- 📝 **Auto Title Generation** from image and text analysis
+- 📊 **Confidence Scoring** for classification accuracy
+- 🔍 **Duplicate Detection** to prevent spam and redundancy
+- 📈 **Trend Prediction** for proactive issue management
+- 🎯 **Priority Scoring** based on community impact and urgency
 
-## 🌍 **The Problem We Solve**
-
-Urban citizens face countless civic issues daily - from broken infrastructure to waste management problems. Traditional reporting systems fail because they are:
-
-<div align="left">
-
-❌ **Slow & Bureaucratic** - Weeks to months for simple issues  
-❌ **Lack Transparency** - No visibility into resolution progress  
-❌ **Poor Engagement** - Citizens feel unheard and disconnected  
-❌ **Manual Processing** - Human error in categorization and routing  
-❌ **No Accountability** - Issues disappear into administrative black holes  
-
-</div>
-
----
-
-## 💡 **Our Solution: JANA SETU**
-
-**JANA SETU** (*"Bridge to People"* in Sanskrit) revolutionizes civic engagement through cutting-edge technology:
-
-<div align="left">
-
-✅ **Instant AI Reporting** - One-tap submission with photo, GPS, and voice  
-✅ **Smart Classification** - ML algorithms auto-route to correct departments  
-✅ **Blockchain Transparency** - Immutable audit trail prevents corruption  
-✅ **Real-time Tracking** - Live status updates and community engagement  
-✅ **Data-Driven Insights** - Analytics for better governance decisions  
-✅ **Community Power** - Citizen voting and collaborative problem-solving  
-
-</div>
-
-</div>
-
----
-
-## 🎯 **Key Features**
-
-<div align="center">
-
-### 📱 **JANA SETU Mobile App**
-| Feature | Description | Impact |
-|---------|-------------|---------|
-| 🔍 **AI-Powered Reporting** | Smart photo analysis, voice-to-text, GPS integration | **90% faster** issue submission |
-| 🎯 **Auto-Classification** | ML algorithms categorize and route automatically | **85% accuracy** in department assignment |
-| 📍 **Precision Location** | GPS tracking with address resolution | **100% accurate** location data |
-| 🔔 **Real-time Updates** | Push notifications for status changes | **Instant** citizen engagement |
-| 👥 **Community Features** | Upvoting, comments, social validation | **3x higher** community participation |
-| 📊 **Personal Impact** | Track your reports and civic contribution | **Gamified** citizen engagement |
-
-### 🖥️ **Government Admin Dashboard**
-| Feature | Description | Impact |
-|---------|-------------|---------|
-| 📈 **Live Analytics** | Real-time civic issue monitoring | **50% faster** response times |
-| 🗺️ **Smart Maps** | Geographic visualization with heat maps | **Visual insights** for planning |
-| 🤖 **ML Insights** | Automated trend analysis and predictions | **Proactive** governance |
-| ⚡ **Quick Actions** | Bulk operations and workflow automation | **70% efficiency** improvement |
-| 🏆 **Citizen Rankings** | Engagement leaderboards and recognition | **Community motivation** |
-| 📊 **Performance KPIs** | Success metrics and accountability tracking | **Data-driven** decisions |
-
-### 🔗 **Blockchain Integration**
-| Feature | Description | Impact |
-|---------|-------------|---------|
-| 🔐 **Immutable Records** | Tamper-proof report storage on Aptos | **100% transparency** |
-| ✅ **Public Verification** | Citizens can verify government actions | **Trust building** |
-| 🏛️ **Anti-Corruption** | Decentralized audit trail | **Accountability** enforcement |
-| 📜 **Smart Contracts** | Automated governance workflows | **Reduced bureaucracy** |
-
-</div>
-
----
-
-## 🛠️ **Technology Stack**
-
-<div align="center">
-
-### **🎨 Frontend Technologies**
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-
-### **⚙️ Backend Technologies**
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=flat-square&logo=express&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-black?style=flat-square&logo=socket.io&badgeColor=010101)
-![JWT](https://img.shields.io/badge/JWT-black?style=flat-square&logo=JSON%20web%20tokens)
-
-### **🗄️ Database & Storage**
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=flat-square&logo=Firebase&logoColor=white)
-![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white)
-
-### **🤖 AI/ML & Blockchain**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Aptos](https://img.shields.io/badge/Aptos-000000?style=flat-square&logo=aptos&logoColor=white)
-![Move](https://img.shields.io/badge/Move-000000?style=flat-square&logo=move&logoColor=white)
-
-</div>
-
----
-
-## 🏗️ **System Architecture**
+## 🏗️ System Architecture
 
 ```mermaid
 graph TB
     A[📱 JANA SETU Mobile App] --> D[🌐 Node.js Backend API]
-    B[💻 Admin Dashboard] --> D
+    B[💻 React Admin Dashboard] --> D
     C[🤖 Python ML Service] --> D
     D --> E[🗄️ MongoDB Database]
     D --> F[🔥 Firebase Auth]
@@ -144,191 +82,480 @@ graph TB
     style H fill:#000000,stroke:#fff,stroke-width:2px,color:#fff
 ```
 
----
+## 🔄 Workflow Diagrams
 
-## 🚀 **Quick Start**
-
-### **Prerequisites**
-```bash
-Node.js 18+    Flutter 3.0+    Python 3.8+    MongoDB Atlas    Firebase Project
+### 📱 Complete Citizen Journey
+```
+Citizen Opens App → Authentication → Report Issue → AI Processing → 
+Department Routing → Real-time Tracking → Resolution → Feedback
 ```
 
-### **🔧 Installation**
+### 👨‍💼 Government Workflow
+```
+Admin Login → Dashboard Analytics → Issue Review → Status Update → 
+Citizen Notification → Resolution Tracking → Performance Metrics
+```
 
-#### **1. Clone Repository**
+### 🤖 AI Processing Pipeline
+```
+Image/Text Input → Feature Extraction → Classification Model → 
+Confidence Scoring → Department Assignment → Blockchain Verification
+```
+
+## 🚀 Quick Start
+
+### 📋 Prerequisites
+- 📦 **Node.js** (v18+ recommended)
+- 🍃 **MongoDB** (Atlas or local)
+- 📱 **Flutter SDK** (v3.0+)
+- 🐍 **Python** (v3.8+)
+- ☁️ **Cloudinary Account** (for media storage)
+- 🔥 **Firebase Project** (for authentication)
+- ⛓️ **Aptos CLI** (for blockchain)
+
+### ⚡ Installation
+
+#### Clone Repository
 ```bash
 git clone https://github.com/HARICH529/Fortex36.git
 cd Fortex36
 ```
 
-#### **2. Backend Setup**
+#### Backend Setup
 ```bash
 cd backend-server
 npm install
 cp .env.example .env
-# Configure your environment variables
+# Configure environment variables
 npm run dev
 ```
 
-#### **3. Admin Dashboard**
+#### Admin Dashboard Setup
 ```bash
-cd admin-vite
+cd ../admin-vite
 npm install
 cp .env.example .env
 npm run dev
 ```
 
-#### **4. Mobile App**
+#### Mobile App Setup
 ```bash
-cd civic_reporter
+cd ../civic_reporter
 flutter pub get
 flutter run
 ```
 
-#### **5. ML Service**
+#### ML Service Setup
 ```bash
-cd backend-server/ml-service
+cd ../backend-server/ml-service
 pip install -r requirements.txt
 python app.py
 ```
 
----
+### 🔐 Environment Configuration
 
-## 📊 **Project Impact**
-
-<div align="center">
-
-| 📈 Metric | 🎯 Value | 📊 Impact |
-|-----------|----------|-----------|
-| **Lines of Code** | 15,000+ | Full-stack complexity |
-| **API Endpoints** | 30+ | Comprehensive backend |
-| **Mobile Screens** | 15+ | Rich user experience |
-| **ML Accuracy** | 85%+ | Intelligent classification |
-| **Response Time** | <200ms | Lightning fast |
-| **Technologies** | 20+ | Cutting-edge stack |
-| **Platforms** | 5+ | Cross-platform reach |
-
-</div>
-
----
-
-## 🎮 **Demo**
-
-<div align="center">
-
-### **🎥 Live Demo Video**
-[![JANA SETU Demo](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-
-### **🌐 Live Deployment**
-[🔗 Admin Dashboard](https://jana-setu-admin.vercel.app) | [📱 Mobile App APK](https://github.com/HARICH529/Fortex36/releases)
-
-</div>
-
----
-
-## 📸 **Screenshots**
-
-<div align="center">
-
-### **📱 JANA SETU Mobile App**
-<img src="https://via.placeholder.com/300x600/02569B/ffffff?text=Home+Screen" width="200" alt="Home Screen">
-<img src="https://via.placeholder.com/300x600/02569B/ffffff?text=AI+Reporting" width="200" alt="AI Reporting">
-<img src="https://via.placeholder.com/300x600/02569B/ffffff?text=Live+Tracking" width="200" alt="Live Tracking">
-
-### **💻 Government Dashboard**
-<img src="https://via.placeholder.com/800x400/61DAFB/000000?text=Analytics+Dashboard" width="400" alt="Analytics Dashboard">
-<img src="https://via.placeholder.com/800x400/61DAFB/000000?text=Smart+Maps" width="400" alt="Smart Maps">
-
-</div>
-
----
-
-## 🏆 **Hackathon Achievements**
-
-<div align="center">
-
-| 🥇 Award | 🏛️ Event | 📅 Date |
-|----------|----------|---------|
-| **🥇 Best Innovation** | Smart City Hackathon 2024 | Jan 2024 |
-| **🌟 People's Choice** | Civic Tech Challenge | Jan 2024 |
-| **🚀 Best Technical Implementation** | Blockchain for Good | Jan 2024 |
-| **📱 Best Mobile App** | Flutter Forward Hackathon | Jan 2024 |
-
-</div>
-
----
-
-## 🤝 **Contributing**
-
-We welcome contributions from the community! 
-
-### **Development Workflow**
+#### Backend (.env)
 ```bash
-1. Fork the repository
-2. Create feature branch: git checkout -b feature/amazing-feature
-3. Commit changes: git commit -m 'Add amazing feature'
-4. Push to branch: git push origin feature/amazing-feature
-5. Open Pull Request
+# Database
+DB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/<dbname>
+PORT=3000
+
+# Security
+JWT_SECRET=<your_jwt_secret>
+JWT_REFRESH_SECRET=<your_refresh_secret>
+
+# Cloudinary
+CLOUDINARY_CLOUD_NAME=<your_cloud_name>
+CLOUDINARY_API_KEY=<your_api_key>
+CLOUDINARY_SECRET_KEY=<your_api_secret>
+
+# Blockchain
+APTOS_NODE_URL=https://fullnode.testnet.aptoslabs.com/v1
+APTOS_ADMIN_PRIVATE_KEY=<your_private_key>
+APTOS_CONTRACT_ADDRESS=<your_contract_address>
+
+# ML Service
+ML_SERVICE_URL=http://localhost:8000
+USE_LIGHTWEIGHT_ML=true
+```
+
+#### Frontend (.env)
+```bash
+VITE_API_URL=http://localhost:3000/api/v1
+VITE_SOCKET_URL=http://localhost:3000
+```
+
+## 📁 Project Structure
+
+```
+jana-setu/
+├── 🔙 backend-server/
+│   ├── 🎮 controllers/              # Business logic
+│   │   ├── authController.js        # Authentication
+│   │   ├── reportController.js      # Report management
+│   │   ├── adminController.js       # Admin operations
+│   │   ├── blockchainController.js  # Blockchain integration
+│   │   └── leaderboardController.js # Community features
+│   ├── 🚏 routes/                  # API routes
+│   ├── 📊 models/                  # Database schemas
+│   │   ├── User.js                 # User model
+│   │   ├── Report.js               # Report model
+│   │   ├── Notification.js         # Notification model
+│   │   └── Admin.js                # Admin model
+│   ├── 🛡️ middlewares/             # Auth & validation
+│   ├── 🔧 services/                # External services
+│   │   ├── aptosService.js         # Blockchain service
+│   │   ├── mlService.js            # ML integration
+│   │   └── notificationService.js  # Push notifications
+│   └── 🔧 utils/                   # Utilities
+├── 🎨 admin-vite/
+│   ├── 📦 src/
+│   │   ├── 🧩 components/          # UI components
+│   │   │   ├── Layout.jsx          # Main layout
+│   │   │   ├── ReportsMap.jsx      # Geographic visualization
+│   │   │   ├── ReportTable.jsx     # Data table
+│   │   │   └── Leaderboard.jsx     # Community rankings
+│   │   ├── 📄 pages/               # Page components
+│   │   │   ├── Dashboard.jsx       # Analytics dashboard
+│   │   │   ├── Reports.jsx         # Report management
+│   │   │   ├── MapAnalytics.jsx    # Geographic analytics
+│   │   │   └── Login.jsx           # Admin authentication
+│   │   └── 🔌 services/            # API services
+└── 📱 civic_reporter/
+    ├── 📦 lib/
+    │   ├── 🔌 api/                 # API services
+    │   ├── 📊 models/              # Data models
+    │   ├── 🔄 providers/           # State management
+    │   ├── 📄 screens/             # App screens
+    │   │   ├── auth/               # Authentication
+    │   │   ├── home/               # Main features
+    │   │   └── leaderboard/        # Community features
+    │   ├── 🔧 services/            # Platform services
+    │   └── 🎨 widgets/             # UI components
+```
+
+## 🛠️ Technology Stack
+
+### 🔙 Backend Stack
+| Technology | Purpose | Version |
+|------------|---------|---------|
+| Node.js | Runtime Environment | Latest LTS |
+| Express | Web Framework | ^4.18.2 |
+| MongoDB | Database | ^6.0+ |
+| Socket.io | Real-time Communication | ^4.7.2 |
+| JWT | Authentication | ^9.0.2 |
+| Multer | File Upload | ^1.4.5 |
+| bcrypt | Password Hashing | ^5.1.0 |
+
+### 🎨 Frontend Stack
+| Technology | Purpose | Version |
+|------------|---------|---------|
+| React | Web UI Framework | ^18.2.0 |
+| Flutter | Mobile Framework | ^3.13.0 |
+| Vite | Build Tool | ^4.4.5 |
+| Tailwind CSS | Styling | ^3.3.0 |
+| Axios | HTTP Client | ^1.5.0 |
+
+### 🤖 AI/ML & Blockchain
+| Technology | Purpose | Version |
+|------------|---------|---------|
+| Python | ML Runtime | ^3.8+ |
+| TensorFlow | ML Framework | ^2.13.0 |
+| Aptos | Blockchain Platform | Testnet |
+| Move | Smart Contract Language | Latest |
+
+## 👥 User Roles & Features
+
+### 🎓 Citizen Capabilities
+```javascript
+const citizenFeatures = {
+  reporting: ["create_reports", "upload_media", "voice_notes", "gps_location"],
+  tracking: ["real_time_updates", "status_notifications", "history_view"],
+  community: ["upvote_reports", "comment_system", "social_sharing"],
+  analytics: ["personal_dashboard", "impact_metrics", "leaderboard_ranking"],
+  feedback: ["rate_resolution", "government_feedback", "service_quality"]
+};
+```
+
+### 👨‍💼 Government Admin Capabilities
+```javascript
+const adminFeatures = {
+  management: ["report_review", "status_updates", "bulk_operations"],
+  analytics: ["real_time_dashboard", "geographic_insights", "trend_analysis"],
+  communication: ["citizen_notifications", "public_announcements"],
+  moderation: ["content_review", "spam_detection", "quality_control"],
+  reporting: ["performance_metrics", "resolution_analytics", "citizen_satisfaction"]
+};
+```
+
+### 🤖 AI System Capabilities
+```javascript
+const aiFeatures = {
+  classification: ["department_routing", "severity_assessment", "priority_scoring"],
+  processing: ["image_analysis", "text_processing", "voice_transcription"],
+  intelligence: ["duplicate_detection", "trend_prediction", "anomaly_detection"],
+  optimization: ["resource_allocation", "response_prioritization", "efficiency_metrics"]
+};
+```
+
+## 🔧 API Endpoints
+
+### 🔐 Authentication Routes
+```
+POST   /api/v1/auth/register          # User registration
+POST   /api/v1/auth/login             # User login
+POST   /api/v1/auth/firebase-auth     # Firebase authentication
+GET    /api/v1/auth/profile           # Get user profile
+PUT    /api/v1/auth/profile           # Update profile
+POST   /api/v1/auth/refresh-token     # Refresh JWT token
+```
+
+### 📱 Report Management
+```
+GET    /api/v1/reports/get-all-reports        # Get all reports
+POST   /api/v1/reports/create-report          # Create new report
+GET    /api/v1/reports/fetch-user-reports     # Get user's reports
+GET    /api/v1/reports/nearby                 # Get nearby reports
+PUT    /api/v1/reports/:id/upvote             # Upvote report
+PUT    /api/v1/reports/:id/status             # Update report status
+```
+
+### 👨‍💼 Admin Operations
+```
+GET    /api/v1/admin/get-all-reports          # Admin report view
+GET    /api/v1/admin/get-report-locations     # Geographic data
+PUT    /api/v1/admin/update-report-acknowledge/:id  # Acknowledge report
+GET    /api/v1/admin/analytics                # Platform analytics
+POST   /api/v1/admin/login                    # Admin authentication
+```
+
+### ⛓️ Blockchain Integration
+```
+POST   /api/v1/blockchain/submit-report       # Submit to blockchain
+GET    /api/v1/blockchain/verify/:id          # Verify report
+GET    /api/v1/blockchain/transaction/:hash   # Get transaction details
+```
+
+### 🏆 Community Features
+```
+GET    /api/v1/leaderboard                    # Get leaderboard
+GET    /api/v1/notifications                  # Get notifications
+POST   /api/v1/notifications/mark-read        # Mark as read
+```
+
+## 📊 Database Models
+
+### 👤 User Schema
+```javascript
+{
+  name: String,                    // Full name
+  email: String,                   // Unique email
+  password: String,                // Hashed password
+  phoneNumber: String,             // Contact number
+  authProvider: ["local", "firebase"], // Auth method
+  profilePicture: String,          // Avatar URL
+  location: {
+    type: "Point",
+    coordinates: [Number, Number]  // [longitude, latitude]
+  },
+  reportsSubmitted: Number,        // Total reports count
+  upvotesReceived: Number,         // Community recognition
+  isActive: Boolean,               // Account status
+  createdAt: Date,                 // Registration date
+  updatedAt: Date                  // Last activity
+}
+```
+
+### 📱 Report Schema
+```javascript
+{
+  title: String,                   // Report title
+  description: String,             // Detailed description
+  address: String,                 // Human-readable address
+  location: {
+    type: "Point",
+    coordinates: [Number, Number]  // GPS coordinates
+  },
+  image_url: String,              // Cloudinary image URL
+  voice_url: String,              // Audio recording URL
+  department: String,             // Assigned department
+  reportStatus: ["SUBMITTED", "ACKNOWLEDGED", "IN_PROGRESS", "RESOLVED"],
+  severity: ["LOW", "MEDIUM", "HIGH", "CRITICAL"],
+  userId: ObjectId,               // Reporter reference
+  upvotes: Number,                // Community votes
+  upvotedBy: [ObjectId],          // Voter references
+  mlClassified: Boolean,          // AI processed flag
+  mlConfidence: {
+    department: Number,           // Classification confidence
+    severity: Number              // Severity confidence
+  },
+  isAcknowledged: Boolean,        // Admin acknowledgment
+  acknowledgedBy: ObjectId,       // Admin reference
+  acknowledgedAt: Date,           // Acknowledgment timestamp
+  createdAt: Date,                // Report creation
+  updatedAt: Date                 // Last modification
+}
+```
+
+### 🔔 Notification Schema
+```javascript
+{
+  userId: ObjectId,               // Recipient reference
+  title: String,                  // Notification title
+  message: String,                // Notification content
+  type: ["REPORT_UPDATE", "SYSTEM", "COMMUNITY"],
+  relatedReportId: ObjectId,      // Associated report
+  isRead: Boolean,                // Read status
+  createdAt: Date                 // Notification timestamp
+}
+```
+
+### 👨‍💼 Admin Schema
+```javascript
+{
+  name: String,                   // Admin name
+  email: String,                  // Admin email
+  password: String,               // Hashed password
+  role: "admin",                  // Role identifier
+  department: String,             // Assigned department
+  permissions: [String],          // Access permissions
+  reportsHandled: Number,         // Performance metric
+  averageResponseTime: Number,    // Efficiency metric
+  isActive: Boolean,              // Account status
+  lastLogin: Date,                // Activity tracking
+  createdAt: Date                 // Account creation
+}
+```
+
+## 🎨 Frontend Architecture
+
+### 🔄 State Management (Flutter)
+- **Provider Pattern**: Centralized state management
+- **AuthProvider**: User authentication state
+- **ReportProvider**: Report data and operations
+- **NotificationProvider**: Real-time notifications
+
+### 🧩 Component Structure (React Admin)
+```
+components/
+├── 🏗️ layout/
+│   └── Layout.jsx               # Main admin layout
+├── 📊 dashboard/
+│   ├── AnalyticsCards.jsx       # KPI cards
+│   ├── ReportsChart.jsx         # Data visualization
+│   └── RecentActivity.jsx       # Activity feed
+├── 🗺️ maps/
+│   ├── ReportsMap.jsx           # Geographic visualization
+│   └── HeatmapLayer.jsx         # Density visualization
+└── 📋 reports/
+    ├── ReportTable.jsx          # Data table
+    ├── ReportModal.jsx          # Detail modal
+    └── StatusBadge.jsx          # Status indicator
+```
+
+## 📱 Real-time Features
+
+### 🔄 Socket.io Integration
+- **Real-time Updates**: Instant report status changes
+- **Live Notifications**: Push notifications for all users
+- **Admin Broadcasts**: System-wide announcements
+- **Community Activity**: Live upvotes and comments
+
+### 🗺️ Geographic Features
+- **Interactive Maps**: Google Maps integration with custom markers
+- **Location Clustering**: Efficient rendering of multiple reports
+- **Heat Maps**: Visual density representation of issues
+- **Geofencing**: Location-based notifications and filtering
+
+### 📊 Analytics Dashboard
+- **Real-time Metrics**: Live KPI updates
+- **Interactive Charts**: Dynamic data visualization
+- **Trend Analysis**: Historical data patterns
+- **Performance Monitoring**: System health metrics
+
+## 🔐 Security & Authentication
+
+### 🛡️ Authentication System
+- **JWT Tokens**: Stateless authentication with refresh tokens
+- **Firebase Integration**: Social login and phone verification
+- **Role-based Access**: Granular permission system
+- **Session Management**: Secure token handling
+
+### 🔒 Data Protection
+- **Input Validation**: Comprehensive data sanitization
+- **File Upload Security**: Type and size validation
+- **API Rate Limiting**: Abuse prevention
+- **CORS Configuration**: Cross-origin security
+- **Environment Variables**: Secure configuration management
+
+### ⛓️ Blockchain Security
+- **Immutable Records**: Tamper-proof report storage
+- **Smart Contracts**: Automated verification processes
+- **Decentralized Verification**: Public audit trail
+- **Cryptographic Hashing**: Data integrity assurance
+
+## 🚀 Deployment Guide
+
+### 🌐 Production Setup
+
+#### 🔙 Backend Deployment
+```bash
+# Environment setup
+export NODE_ENV=production
+export DB_URI=mongodb+srv://prod-cluster
+export CLIENT_URL=https://jana-setu.com
+
+# Install dependencies
+npm ci --only=production
+
+# Start server
+npm start
+```
+
+#### 🎨 Frontend Deployment
+```bash
+# Build React admin dashboard
+cd admin-vite
+npm run build
+vercel --prod
+
+# Build Flutter mobile app
+cd civic_reporter
+flutter build apk --release
+flutter build ios --release
+```
+
+### 🐳 Docker Configuration
+```dockerfile
+# Backend Dockerfile
+FROM node:18-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci --only=production
+COPY . .
+EXPOSE 3000
+CMD ["npm", "start"]
+```
+
+### ☁️ Environment Variables (Production)
+```bash
+NODE_ENV=production
+DB_URI=mongodb+srv://production-cluster
+JWT_SECRET=ultra-secure-production-secret
+CLOUDINARY_CLOUD_NAME=jana-setu-prod
+CLIENT_URL=https://jana-setu.com
+APTOS_NODE_URL=https://fullnode.mainnet.aptoslabs.com/v1
+ML_SERVICE_URL=https://ml-api.jana-setu.com
 ```
 
 ---
 
-## 📄 **License**
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👥 **Team VisionX**
-
 <div align="center">
 
-### **🌟 Meet the Innovators Behind JANA SETU**
+## 🌟 Built with ❤️ by Team VisionX
 
-| 👤 Role | 🎯 Responsibility | 💼 Expertise |
-|---------|------------------|--------------|
-| **🎯 Project Lead** | Architecture & Strategy | Full-Stack + Leadership |
-| **💻 Backend Engineer** | API & Database Design | Node.js + MongoDB |
-| **📱 Mobile Developer** | Flutter App Development | Cross-Platform Mobile |
-| **🤖 ML Engineer** | AI/ML Model Development | Python + TensorFlow |
-| **⛓️ Blockchain Developer** | Smart Contract Development | Aptos + Move Language |
-| **🎨 UI/UX Designer** | User Experience Design | Design + Research |
-| **☁️ DevOps Engineer** | Infrastructure & Deployment | Cloud + CI/CD |
-
-### **🚀 Our Mission**
-*"To bridge the digital divide between citizens and governments, creating transparent, efficient, and accountable civic engagement through innovative technology."*
-
-</div>
-
----
-
-## 📞 **Contact & Support**
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:team.visionx@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/company/team-visionx)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/team_visionx)
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/visionx)
-
-**📧 Email**: team.visionx@gmail.com  
-**🌐 Website**: [www.janasetu.com](https://www.janasetu.com)  
-**📱 Support**: [support.janasetu.com](https://support.janasetu.com)
-
-</div>
-
----
-
-<div align="center">
-
-### **🌟 Star this repository if JANA SETU inspired you!**
-
-**Made with ❤️ by Team VisionX**
+**JANA SETU - Where Citizens Meet Governance**
 
 *Transforming communities, one report at a time.*
-
----
-
-**🏛️ JANA SETU - Where Citizens Meet Governance**
 
 </div>
