@@ -1,0 +1,90 @@
+# ================================
+# ENVIRONMENT & SECRETS
+# ================================
+.env
+.env.*
+!.env.example
+firebase-service-account.json
+admin_private_key.txt
+
+# ================================
+# NODE.JS
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ================================
+# LOGS & DEBUG
+# ================================
+logs/
+*.log
+server-debug.log
+startup-log.txt
+
+# ================================
+# BUILD & CACHE
+# ================================
+dist/
+build/
+cache/
+artifacts/
+.cache/
+
+# ================================
+# BLOCKCHAIN
+# ================================
+.aptos/config.yaml
+sources/build/
+*.move.bak
+
+# ================================
+# ML SERVICE
+# ================================
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+models/
+*.pkl
+*.joblib
+
+# ================================
+# UPLOADS & TEMP
+# ================================
+public/temp/
+uploads/
+*.tmp
+*.temp
+
+# ================================
+# DATABASE
+# ================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ================================
+# TESTING
+# ================================
+coverage/
+.nyc_output/
+test-*.js
+check-*.js
+
+# ================================
+# IDE
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================================
+# OS
+# ================================
+.DS_Store
+Thumbs.db

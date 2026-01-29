@@ -1,0 +1,95 @@
+# ================================
+# FLUTTER & DART
+# ================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+.metadata
+pubspec.lock
+
+# ================================
+# BUILD OUTPUTS
+# ================================
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# ================================
+# ANDROID
+# ================================
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/.kotlin/
+android/key.properties
+android/app/upload-keystore.jks
+android/app/key.jks
+android/app/google-services.json
+
+# ================================
+# iOS
+# ================================
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/.symlinks/
+ios/Pods/
+ios/Podfile.lock
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Runner/GoogleService-Info.plist
+
+# ================================
+# WEB
+# ================================
+web/icons/Icon-*
+web/favicon.png
+
+# ================================
+# WINDOWS
+# ================================
+windows/flutter/ephemeral/
+
+# ================================
+# ENVIRONMENT & CONFIG
+# ================================
+.env
+.env.*
+!.env.example
+firebase_options.dart.bak
+google-services.json
+GoogleService-Info.plist
+
+# ================================
+# IDE
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# ================================
+# OS
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# MISC
+# ================================
+*.tmp
+*.temp
+.history/
+flutter_*.png
+generate_icons.bat
+setup_*.bat

@@ -1,0 +1,250 @@
+# ================================
+# SECURITY & SENSITIVE FILES
+# ================================
+*.env
+*.env.*
+!*.env.example
+.env.local
+.env.production
+.env.staging
+.env.development
+
+# API Keys & Secrets
+**/config/secrets.*
+**/config/keys.*
+**/*secret*
+**/*key*
+**/*token*
+firebase-service-account.json
+google-services.json
+GoogleService-Info.plist
+
+# Private Keys & Certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+admin_private_key.txt
+
+# ================================
+# NODE.JS & NPM
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+.grunt
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+.nyc_output
+
+# ================================
+# BUILD & DIST
+# ================================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.vite/
+
+# ================================
+# LOGS & DEBUGGING
+# ================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+server-debug.log
+startup-log.txt
+
+# ================================
+# FLUTTER & DART
+# ================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+pubspec.lock
+.metadata
+
+# Flutter build outputs
+**/build/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# ================================
+# ANDROID
+# ================================
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/.kotlin/
+android/key.properties
+android/app/upload-keystore.jks
+android/app/key.jks
+
+# ================================
+# iOS
+# ================================
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/.symlinks/
+ios/Pods/
+ios/Podfile.lock
+ios/Runner/GeneratedPluginRegistrant.*
+
+# ================================
+# BLOCKCHAIN & CRYPTO
+# ================================
+**/artifacts/
+**/cache/
+**/.aptos/config.yaml
+**/sources/build/
+**/*.move.bak
+
+# ================================
+# ML & AI
+# ================================
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.pkl
+*.joblib
+*.h5
+*.pb
+models/
+datasets/
+*.weights
+
+# ================================
+# DATABASES
+# ================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ================================
+# CLOUD & DEPLOYMENT
+# ================================
+.vercel
+.netlify
+.firebase/
+.gcloud/
+.aws/
+.azure/
+
+# Docker
+Dockerfile.prod
+docker-compose.prod.yml
+.dockerignore
+
+# ================================
+# IDE & EDITORS
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-*
+.atom/
+
+# ================================
+# OS GENERATED
+# ================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ================================
+# TEMPORARY & CACHE
+# ================================
+*.tmp
+*.temp
+*.cache
+.temp/
+.tmp/
+.sass-cache/
+.eslintcache
+.stylelintcache
+
+# ================================
+# TESTING
+# ================================
+coverage/
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+.coverage.*
+
+# ================================
+# MISC
+# ================================
+*.class
+*.lock
+*.orig
+*.rej
+*.bak
+*.swp
+*.tmp
+.history/
+.vscode-test/
+
+# Project specific
+ngrok.exe
+ngrok.zip
+rough-web.jpg
+test-*.js
+check-*.js
